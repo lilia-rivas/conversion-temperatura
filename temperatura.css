@@ -1,0 +1,84 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f4fc;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(191, 119, 191);
+  margin-top: 20px;
+}
+
+.tarjeta {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  border-top: 5px solid #bb64e7;
+  margin: 20px auto;
+}
+
+.tarjeta-cuerpo {
+  padding: 20px;
+  text-align: center;
+}
+
+.tarjeta-cuerpo p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.tarjeta-cuerpo strong {
+  color: #bb64e7;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #bb64e7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a14dc4;
+}
+#resultados {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.imagen-decorativa {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  input[type="text"], button {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .tarjeta {
+    width: 95%;
+  }
+
+  .imagen-decorativa {
+    max-width: 90%;
+  }
+}
